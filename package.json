@@ -1,0 +1,32 @@
+{
+  "name": "cashize",
+  "version": "1.0.0",
+  "description": "MarketPlace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWelchez/cashize.git"
+  },
+  "keywords": [
+    "node",
+    "handlebars",
+    "mongoose",
+    "bootstrap"
+  ],
+  "author": "David Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidWelchez/cashize/issues"
+  },
+  "homepage": "https://github.com/DavidWelchez/cashize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongose": "0.0.2-security",
+    "nodemon": "^2.0.5"
+  }
+}
